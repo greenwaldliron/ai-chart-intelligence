@@ -22,11 +22,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 <body class="bg-black text-white">
 
+<!-- Top Navigation -->
+<header style="position:sticky;top:0;z-index:1000;background:rgba(0,0,0,0.95);display:flex;justify-content:flex-end;align-items:center;padding:12px 8%;">
+  <nav style="display:flex;align-items:center;gap:24px;">
+    <a href="#key-features" style="color:#cbd5e1;text-decoration:none;font-weight:500;transition:0.3s;">Feature</a>
+    <a href="#privacy-policy" style="color:#cbd5e1;text-decoration:none;font-weight:500;transition:0.3s;">Privacy</a>
+    <a href="https://chromewebstore.google.com/detail/ai-chart-intelligence-ins/gjcppedfelmpnepekghglifapnfkmjcp" 
+       target="_blank" rel="noopener noreferrer"
+       style="background:linear-gradient(90deg,#2563eb,#06b6d4);padding:8px 20px;border-radius:8px;color:white;font-weight:600;text-decoration:none;transition:0.3s;">
+      Download
+    </a>
+  </nav>
+</header>
+
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W575QJH2"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  
+
+<!-- Hero Section -->
 <section style="display:flex;align-items:center;justify-content:space-between;padding:80px 8%;gap:40px;flex-wrap:wrap;">
   <div style="max-width:600px;flex:1;min-width:280px;">
     <h1 style="font-size:52px;font-weight:800;margin-bottom:20px;line-height:1.1;">
@@ -69,7 +83,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 <!-- Features Section -->
-<section class="py-20 px-6">
+<section id="key-features" class="py-20 px-6">
   <div class="max-w-6xl mx-auto">
     <h2 class="text-4xl font-bold text-center">Key Features</h2>
     <div class="mt-12 grid md:grid-cols-2 gap-10">
