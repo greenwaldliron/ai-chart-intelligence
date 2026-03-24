@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://greenwaldliron.github.io/ai-chart-intelligence/sitemap.xml
